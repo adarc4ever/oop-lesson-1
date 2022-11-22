@@ -1,7 +1,7 @@
 from common.mammal import Mammal,message,say_hello
 
 class Dog(Mammal):
-    legs = 4 
+    legs = 12
     eyes = 2
 
     def __init__(self, name,age,breed) -> None:
